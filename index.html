@@ -3,7 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
     <style>
+    @media only screen and (max-width: 600px) {
+
+      .link{
+        color:white;
+        text-decoration:none;
+        font-size:10px
+      }
+
+    }
+    @media only screen and (min-width: 600px){
+    .link{
+      color:white;
+      text-decoration:none;
+    }
+    }
     html{
       height:100%
     }
@@ -14,10 +32,7 @@
       grid-template-columns: 10em 1em 1fr;
       grid-template-rows:10em 1em 1fr 1em 10em
     }
-    .link{
-      color:white;
-      text-decoration:none;
-    }
+
     .icon{
       grid-column:1 ;
       grid-row: 1;
