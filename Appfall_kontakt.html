@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+      <link rel="icon"  href="icon6.png" type="image/x-icon" >
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+    @media only screen and (max-width: 390px){
+     .Überschrift{
+       font-size: 20px;
+       margin-top: 35px
+     }
+    }
+    @media only screen and (min-width: 391px){
+     .Überschrift{
+       font-size: 45px;
+     }
+    }
+
+    @media only screen and (max-width: 390px){
+    .link{
+      color:white;
+      text-decoration:none;
+      font-size:5px
+    }
+  }
+      @media only screen and (min-width: 390px){
+      .link{
+        color:white;
+        text-decoration:none;
+        font-size:10px
+      }
+
+    }
+    @media only screen and (min-width: 450px){
+
+      .link{
+        color:white;
+        text-decoration:none;
+        font-size:15px
+      }
+    }
+    @media only screen and (min-width: 600px){
+    .link{
+      color:white;
+      text-decoration:none;
+      font-size: 20px
+    }
+    }
+
     html{
       height:100%
     }
@@ -14,10 +58,7 @@
       grid-template-columns: 10em 1em 1fr;
       grid-template-rows:10em 1em 1fr 1em 10em
     }
-    .link{
-      color:white;
-      text-decoration:none;
-    }
+    
     .icon{
       grid-column:1 ;
       grid-row: 1;
@@ -49,10 +90,10 @@
     <div class="icon" > <img src="icon_final2.jpg" width="160px" height="160px"
                           width="220px" margin-top="10px"></div>
     <div class="kopf" style="background-color:#151515" >
-       <font size="20px" face="Calibri"><p style="color:white;margin-left:1em;margin-top:1em;margin-bottom:0;text-align:left">Appfall</p></font>
+       <font class="Überschrift" face="Calibri"><p style="color:white;margin-left:45px;margin-top:45px;margin-bottom:0;text-align:left">Appfall</p></font>
        <font size="5" face="Calibri"><p style="color:white;margin-bottom:0;margin-top:15px ;margin-right:1em;text-align:right;text-align:bottom">
-         <a href="index.html" class="link" > Home </a>&nbsp &nbsp &nbsp
-         <a href="" class="link">Einkaufen</a>&nbsp &nbsp &nbsp
+         <a href="index.html" class="link" > Home  </a>&nbsp &nbsp
+         <a href="" class="link">Einkaufen</a>&nbsp &nbsp
          <a href="Appfall_Download.html" class="link">Download</a>
        </p></font>
     </div>
@@ -72,7 +113,7 @@
         Email: appfall@tobias-lauterbach.de<br>
         <br>
         Adrian Baumgart <br>
-        Email: adrianbaumgart@web.de <br>
+        Email: adrianbaumgart21@web.de <br>
         <br>
         Dhritman Dhar<br>
         Email: m2d2_2603@icloud.com<br>
